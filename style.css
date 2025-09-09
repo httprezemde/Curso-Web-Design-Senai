@@ -1,0 +1,138 @@
+* {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+     box-sizing: border-box;
+     text-decoration: none;
+
+}
+
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #f8f9fa;
+     color: #343a40;
+     height: 1.6em;
+
+}
+
+#container {
+
+     padding: 15px;
+     background-color: rgb(255, 255, 255);
+     border: 10px 10px 0px 0px;
+     border-radius: 10px;
+     max-width: 950px;
+     margin: auto;
+     margin-top: 20px;
+     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.076);
+
+}
+
+h1 {
+     font-size: 2.5em;
+     color: saddlebrown;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
+
+h3 {
+     color: #4a4a4a;
+     border-left: 4px solid darkgoldenrod;
+     padding-left: 10px;
+
+}
+
+header {
+     display: flex;
+     justify-content: center;
+     /* PRA CENTRALIZAR HORIZONTALMENTE */
+     align-items: center;
+     /* PRA CENTRALIZAR VERTICALMENTE */
+     height: 100px;
+     background-color: #f0f0f0;
+     border: 5px solid #ccc;
+
+}
+
+
+.descricao {
+     font-style: italic;
+     color: #6c757d;
+     padding: 20px 25px;
+     background-color: #3498db;
+     color: white;
+     text-align: center;
+     font-weight: 500;
+     border-radius: 5px;
+     box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+
+}
+
+/* Para listas */
+ul,
+ol {
+
+     text-align: center;
+     padding-left: 20px;
+     margin: 10px;
+}
+
+/* Os itens dessa lista */
+li {
+     margin-bottom: 8px;
+
+}
+
+li>a:hover {
+     text-decoration: line-through;
+}
+
+li>a:focus {
+     background-color: yellow;
+}
+
+/* Esse é o link voltar ao inicio */
+p a {
+     text-decoration: none;
+     color: darkgoldenrod;
+}
+
+hr {
+     border: 0;
+     height: 1px;
+     background-color: #e0e0e0;
+     margin: 30px 0;
+
+}
+
+table {
+     width: 100%;
+     border-collapse: collapse;
+     margin: 20px 0;
+
+}
+
+th {
+     background-color: saddlebrown;
+     color: #ffffff;
+     padding: 12px;
+
+}
+
+td {
+     border: 1px solid #dee2e6;
+     padding: 10px;
+     text-align: center;
+     border-color: purple;
+}
+
+tbody tr:nth-child(even) {
+
+     background-color: #f2f2f2;
+}
+
+body {
+     text-align: center;
+}
